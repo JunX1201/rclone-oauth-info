@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>个人录像备份 | Personal Video Backup</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <h1>个人录像备份</h1>
+    <p class="subtitle">Personal Video Backup</p>
+    <p>这是由账号所有者自行运行的私人备份工具。它使用 rclone 将所有者服务器上的录像复制到所有者授权的 Google Drive，供所有者保存备份。</p>
+
+    <h2>Google Drive 权限的用途</h2>
+    <p>rclone 获得 Google Drive 访问权限后，会检查目标目录中的文件，并上传需要备份的录像。当前脚本只执行复制操作，不会删除服务器或 Google Drive 中的文件。该工具不提供公众注册或上传服务。</p>
+
+    <p><a href="privacy.html">阅读隐私政策 / Privacy policy</a></p>
+
+    <hr>
+    <h2>About this app</h2>
+    <p>This is a personal backup tool operated by its owner. It uses rclone to copy video recordings from the owner’s server to the owner’s authorized Google Drive account.</p>
+    <p>rclone uses Google Drive access to inspect the destination and upload files that need backing up. The current script only copies files; it does not delete files from the server or Google Drive. This app does not offer public sign-up or uploads.</p>
+    <p><a href="privacy.html">Read the privacy policy</a></p>
+  </main>
+</body>
+</html>

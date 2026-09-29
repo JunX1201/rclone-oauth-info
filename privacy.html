@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>隐私政策 | Personal Video Backup</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <p><a href="index.html">← 返回主页 / Home</a></p>
+    <h1>隐私政策</h1>
+    <p class="subtitle">Privacy policy · 更新日期 / Updated: 2026-09-30</p>
+
+    <h2>用途和访问范围</h2>
+    <p>此应用仅供账号所有者为自己的录像做备份。rclone 请求 Google Drive 的完整访问权限；当前备份脚本只使用该权限检查目标目录、复制录像和保留备份，不会删除 Google Drive 文件。Google Drive 中的文件内容和元数据只用于完成备份。</p>
+
+    <h2>存储与共享</h2>
+    <p>录像从所有者的服务器传输到其授权的 Google Drive。OAuth 授权信息保存在所有者的服务器上，不会发布在本网站。备份运行日志保存在服务器上。此工具不会出售 Google 用户数据，也不会向广告商共享这些数据。本网站没有应用自行添加的分析脚本或跟踪 Cookie。</p>
+
+    <h2>保留和控制</h2>
+    <p>Google Drive 中的备份会保留到所有者自行删除。服务器上的源文件和运行日志依照所有者设置的服务器保留规则处理。所有者可以随时在 Google 账号的第三方应用权限页面撤销此应用的访问权限，也可以删除服务器上的 rclone 授权配置。</p>
+
+    <hr>
+    <h2>Purpose and access</h2>
+    <p>This app is used only by its owner to back up the owner’s video recordings. rclone requests full Google Drive access. The current backup script uses that access to inspect the destination and copy recordings; it does not delete Google Drive files. Drive file contents and metadata are used only to perform the backup.</p>
+
+    <h2>Storage and sharing</h2>
+    <p>Recordings are transferred from the owner’s server to the owner’s authorized Google Drive account. OAuth credentials are stored on the owner’s server and are not published on this website. Backup activity logs remain on the server. The tool does not sell Google user data or share it with advertisers. This website contains no app-provided analytics scripts or tracking cookies.</p>
+
+    <h2>Retention and control</h2>
+    <p>Backup copies remain in Google Drive until the owner deletes them. Source files and activity logs follow the owner’s server retention settings. The owner may revoke access in their Google Account’s third-party access settings and may delete the rclone authorization file on the server.</p>
+  </main>
+</body>
+</html>
